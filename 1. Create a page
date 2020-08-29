@@ -1,0 +1,24 @@
+1. Create a page
+2. Page should contain a form and a table
+3. form should take first name (required, min: 3, max: 10), last name (same as first name) and email(req, email format) as inputs and a submit button
+4. On click of submit button, you should validate the fields and show relevant errors if any
+5. Below the form there should be table which should have 6 columns
+	(S no, first name, last name, email, edit and delete)
+6. S no columns should start from 1 and move on in single increments
+7. Edit and delete columns should have buttons (edit in green color and delete in red)
+8. When I click on delete button in any row, that entire row should disappear
+9. When I click on Edit button, the row information should re-fill in the above form and you should show save and cancel button instead of submit button.
+10. When I click edit after editing the information, the respective row should update with edited information and form should clear and should show submit button
+11. If I click cancel button, the form should clear and submit button should be shown.
+12. Nice to have: When I click edit button, the respective row in table should be highlighted with a background color, The highlighted background color should be removed when user clicks on save/cancel button. 
+
+
+How to do
+1: Create the complete html with form and table with dummy data
+2. Create all possible state on the page (save/cancel with submit buttons, table row highlight)
+3. link up jquery and add form validation.
+4. On successful submit, add a row in table (need JS link up)
+5. On click of any delete button, delete that row
+6. On click of edit, re-fill the form and highlight the table row
+7. on save, update row, clear form and remove highlight
+8, on cancel, clear form and remove highlight

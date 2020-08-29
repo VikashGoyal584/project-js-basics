@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project One</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="./scripts/jquery.js"></script>
+	<script src="./scripts/jquery.validate.min.js"></script>
+</head>
+<body>
+	<div class="page-width">
+	<div class="form-class clearfix">
+		<h2 class="form-title">Data Form</h2>
+		<form class="editing-form" id="editing-form">
+			<label class="form-label">First name</label>
+			<input class="form-input" type="text" name="firstname" placeholder="First Name">
+			<label class="form-label">Last name</label>
+			<input class="form-input" type="text" name="lastname" placeholder="Last Name">
+			<label class="form-label">Email</label>
+			<input class="form-input" type="text" name="email" placeholder="Email">
+			<div class="actions">
+				<button class="btn submit-button">Submit</button>
+				<button class="btn save-button">Save <i class="fa fa-save"></i></button>
+				<button class="btn cancle-button">cancel</button>
+			</div>
+			
+		</form>
+	</div>
+
+<div class="table-styling">
+	<h2 class="table-title">Entered data</h2>
+		<table style="width:100%">
+		  <tr class="table-headers">
+		  	<th>S.no</th>
+		    <th>Firstname</th>
+		    <th>Lastname</th> 
+		    <th>Email</th>
+		  </tr>
+		  <tr>
+		  	<td>1</td>
+		    <td>Vikash</td>
+		    <td>Goyal</td>
+		    <td>vikashgoyal22@gmail.com</td>
+		    <td><button class="edit-button">Edit <i class="fa fa-edit"></i></button></td>
+		    <td><button class="delete-button">delete <i class="fa fa-trash-o"></i></button></td>
+		  </tr>
+		  <tr>
+		  	<td>2</td>
+		    <td>Anil</td>
+		    <td>Kumar</td>
+		    <td>anilkumar@gmail.com</td>
+		    <td><button class="edit-button">Edit <i class="fa fa-edit"></i></button></td>
+		    <td><button class="delete-button">delete <i class="fa fa-trash-o"></i></button></td>
+		  </tr>
+		  <tr>
+		  	<td>3</td>
+		    <td>Basanthi</td>
+		    <td>Agarwal</td>
+		    <td>basanthiagarwal@gmail.com</td>
+		    <td><button class="edit-button">Edit <i class="fa fa-edit"></i></button></td>
+		    <td><button class="delete-button">delete <i class="fa fa-trash-o"></i></button></td>
+		  </tr>
+		</table>
+	</div>
+</div>
+<script src="./scripts/verify.js"></script>
+</body>
+</html>

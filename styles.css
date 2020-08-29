@@ -1,0 +1,127 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+.page-width{
+	max-width: 980px;
+	margin: auto;
+}
+
+.editing-form {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-title{
+	text-align: center;
+}
+
+.form-class{
+	max-width: 500px;
+	margin:auto;
+	padding: 100px 0px;
+	display: block;
+}
+
+.form-label{
+	font-size: 14px;
+}
+
+.form-input{
+	width: 310px;
+	display: block;
+	padding: 10px;
+	margin: 10px 0px;
+	font-size: 14px;
+	border-radius: 6px;
+	border:1px solid;
+	text-align: left;
+}
+
+.actions {
+	text-align: right;
+}
+
+.btn {
+	padding: 10px 30px;
+	color: white;
+	border-radius: 5px;
+	border-style: none;
+	font-weight: bold;
+}
+
+.submit-button{
+	background-color: grey;
+}
+
+
+.save-button{
+	background-color: lightgreen;
+}
+
+
+.cancle-button{
+	background-color: red;
+}
+
+th {
+  border-collapse: collapse;
+  background-color: #2ab0ca;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-title{
+	text-align: center;
+	padding: 25px 0px;  
+	background-color: coral;
+	color: white;
+	font-weight: bold;
+}
+
+.table-headers{
+	text-align: cente;
+	table-layout:
+}
+
+.edit-button{
+	padding: 10px;
+	color: white;
+	background-color: #65b965;
+	border-style: none;
+	border: none;
+	border-radius: 6px;
+	width: 90px;
+	font-weight: bold;
+}
+
+.delete-button{
+	padding: 10px;
+	color: white;
+	background-color: red;
+	border-style: none;
+	border: none;
+	border-radius: 6px;
+	width: 90px;
+	font-weight: bold;
+}
+
+.table-styling{
+	padding-bottom: 100px;
+}
+
+.error_label{
+	display: block;
+	color: red;
+	font-size: 10px;
+}
